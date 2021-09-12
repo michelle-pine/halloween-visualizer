@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, canvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+canvas { 
+  z-index: -1;
+}
+
+.image {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 30vh;
+  }
+}
